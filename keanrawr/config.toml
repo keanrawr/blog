@@ -1,0 +1,69 @@
+baseURL = "https://keanrawr.github.io"
+languageCode = "en-us"
+title = "Kean Rawr"
+description = "Blog posts by Kean."
+theme = "min_night"
+disqusShortname = ""
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[params]
+    author = "Kean Rawr"
+    description = "Always wanted to have a blog, but was too young to have one. So here goes nothing."
+    logo = "profile.png"
+    twitterAuthor = "@keanrawr"
+    githubUsername = "keanrawr"
+    accent = "#005580" # dark colors do best
+    backgroundColor = "#f5f5f5"
+    font = "Mina" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "lakeside-light" # make this match accent
+    highlightLanguages = ["r", "bash", "go"]
+
+# adjust these as you see fit
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+    
+[[menu.main]]
+    url = "/tags/"
+    name = "Tags"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "the.keanraw@gmail.com"
+    name = "far fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/keanrawr/"
+    name = "fab fa-github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/KeanRawr/"
+    name = "fab fa-twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/antonio-herrera-98b088124/"
+    name = "fab fa-linkedin"
+    weight = 4
