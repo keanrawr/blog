@@ -5,3 +5,6 @@
 	path = keanrawr/public
 	url = https://github.com/keanrawr/keanrawr.github.io.git
 	branch = main
+[submodule "keanrawr/themes/stack"]
+	path = keanrawr/themes/stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack.git
