@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://keanrawr.github.io
 languageCode: en-us
 theme: stack
 paginate: 5
@@ -135,6 +135,19 @@ menu:
           url: /
           weight: -100
           pre: home
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/keanrawr
+          params:
+            icon: brand-github
+            
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/KeanRawr
+          params:
+            icon: brand-twitter
 
 related:
     includeNewer: true
