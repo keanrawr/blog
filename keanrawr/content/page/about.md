@@ -11,7 +11,8 @@ lastmod: '2021-07-20'
 menu:
     main: 
         weight: -90
-        pre: user
+        params:
+            icon: user
 ---
 
 My name is Antonio Herrera, but I generally go by @keanrawr on the internet. I'm an actuary by formal traning by La Salle University in Mexico City. Since my last semesters in school I decided to focus my carrer on data science, I really love math and statistics, it was a no brainer to go start a carrer in data.
